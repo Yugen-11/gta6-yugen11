@@ -1,0 +1,6 @@
+# Entry-program output (MAKEFUN_OUTPUT_DIR=out node main.ts)
+out/
+# Tooling a developer may install locally (the game itself needs none)
+node_modules/
+# OS artefacts
+.DS_Store
