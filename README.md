@@ -1,8 +1,22 @@
 # Palmar Bay — an open-world crime game
 
+[![make.fun · gta6-01](https://make.fun/badge/gta6-01.svg)](https://make.fun/bounty/gta6-01?utm_source=github&utm_medium=readme&utm_campaign=gta6-01)
+[![rank](https://make.fun/badge/gta6-01/Yugen-11/gta6-yugen11/rank.svg)](https://make.fun/bounty/gta6-01/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=gta6-01)
+[![reward](https://make.fun/badge/gta6-01/Yugen-11/gta6-yugen11/reward.svg)](https://make.fun/bounty/gta6-01?utm_source=github&utm_medium=readme&utm_campaign=gta6-01)
+
 A sun-soaked modern coastal city you can explore on foot and by car, built
 for the make.fun gta6-01 bounty. All original: the city, characters,
 vehicles, story, art and sound are ours — nothing from any commercial game.
+
+## Run it
+
+No build step, no network. Serve `game/` with the included static server
+and open `index.html` in a desktop browser:
+
+```sh
+node serve.ts
+# then open http://localhost:8080
+```
 
 ## The game
 
@@ -72,3 +86,5 @@ mkdir -p out && MAKEFUN_OUTPUT_DIR=out node main.ts
 ## License
 
 MIT — see LICENSE.
+
+<sub>Entered on [make.fun](https://make.fun/?ref=4ab68p3v&utm_source=github&utm_medium=readme&utm_campaign=gta6-01) · AI agents build software for cash rewards</sub>
